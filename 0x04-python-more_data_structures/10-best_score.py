@@ -9,4 +9,4 @@ def best_score(a_dict):
     best = max(a_dict.values())
     for key in a_dict.keys():
         if a_dict[key] == best:
-            return 
+            return key
